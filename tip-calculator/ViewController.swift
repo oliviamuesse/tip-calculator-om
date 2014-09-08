@@ -14,12 +14,30 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var tipTitleLabel: UILabel!
+    
+    @IBOutlet weak var twoLabel: UILabel!
+    @IBOutlet weak var threeLabel: UILabel!
+    @IBOutlet weak var fourLabel: UILabel!
+    
+    @IBOutlet weak var oneImageView: UIImageView!
+    @IBOutlet weak var twoAImageView: UIImageView!
+    @IBOutlet weak var twoBImageView: UIImageView!
+    @IBOutlet weak var threeAImageView: UIImageView!
+    @IBOutlet weak var threeBImageView: UIImageView!
+    @IBOutlet weak var threeCImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        tipLabel.text = "$0.00"
-        totalLabel.text = "$0.00"
+        tipLabel.text = ""
+        totalLabel.text = ""
+        twoLabel.text = ""
+        threeLabel.text = ""
+        fourLabel.text = ""
+        tipTitleLabel.text = ""
+        
+        billField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,15 +53,31 @@ class ViewController: UIViewController {
         var tip = billAmount * tipPercentage
         var total = billAmount + tip
         
+        var two = total / 2
+        var three = total / 3
+        var four = total / 4
+        
         tipLabel.text = "$\(tip)"
         totalLabel.text = "$\(total)"
+        twoLabel.text = "$\(two)"
+        threeLabel.text = "$\(three)"
+        fourLabel.text = "$\(four)"
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        twoLabel.text = String(format: "$%.2f", two)
+        threeLabel.text = String(format: "$%.2f", three)
+        fourLabel.text = String(format: "$%.2f", four)
+        tipTitleLabel.text = ("Tip")
     }
 
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }
+    
+    @IBAction func onTap(sender: UISegmentedControl) {
+        view.endEditing(true)
+    }
+    
 }
 

@@ -12,6 +12,10 @@
 		4567D22619BBC52F00432B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4567D22419BBC52F00432B23 /* Main.storyboard */; };
 		4567D22819BBC52F00432B23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4567D22719BBC52F00432B23 /* Images.xcassets */; };
 		4567D23419BBC52F00432B23 /* tip_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567D23319BBC52F00432B23 /* tip_calculatorTests.swift */; };
+		4594344619BD6E0100544BA8 /* bg-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 4594344319BD6E0100544BA8 /* bg-15.png */; };
+		4594344719BD6E0100544BA8 /* bg-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 4594344419BD6E0100544BA8 /* bg-20.png */; };
+		4594344819BD6E0100544BA8 /* bg-25-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4594344519BD6E0100544BA8 /* bg-25-2.png */; };
+		4594344C19BD71F700544BA8 /* icon-person.png in Resources */ = {isa = PBXBuildFile; fileRef = 4594344B19BD71F700544BA8 /* icon-person.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 		4567D22D19BBC52F00432B23 /* tip-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4567D23219BBC52F00432B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4567D23319BBC52F00432B23 /* tip_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorTests.swift; sourceTree = "<group>"; };
+		4594344319BD6E0100544BA8 /* bg-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-15.png"; sourceTree = "<group>"; };
+		4594344419BD6E0100544BA8 /* bg-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-20.png"; sourceTree = "<group>"; };
+		4594344519BD6E0100544BA8 /* bg-25-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-25-2.png"; sourceTree = "<group>"; };
+		4594344B19BD71F700544BA8 /* icon-person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-person.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 		4567D21D19BBC52F00432B23 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				4594344219BD6E0100544BA8 /* images */,
 				4567D22019BBC52F00432B23 /* AppDelegate.swift */,
 				4567D22219BBC52F00432B23 /* ViewController.swift */,
 				4567D22419BBC52F00432B23 /* Main.storyboard */,
@@ -107,6 +116,17 @@
 				4567D23219BBC52F00432B23 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4594344219BD6E0100544BA8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4594344319BD6E0100544BA8 /* bg-15.png */,
+				4594344B19BD71F700544BA8 /* icon-person.png */,
+				4594344419BD6E0100544BA8 /* bg-20.png */,
+				4594344519BD6E0100544BA8 /* bg-25-2.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +209,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4594344719BD6E0100544BA8 /* bg-20.png in Resources */,
+				4594344C19BD71F700544BA8 /* icon-person.png in Resources */,
+				4594344819BD6E0100544BA8 /* bg-25-2.png in Resources */,
+				4594344619BD6E0100544BA8 /* bg-15.png in Resources */,
 				4567D22619BBC52F00432B23 /* Main.storyboard in Resources */,
 				4567D22819BBC52F00432B23 /* Images.xcassets in Resources */,
 			);
@@ -395,6 +419,7 @@
 				4567D23919BBC52F00432B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4567D23A19BBC52F00432B23 /* Build configuration list for PBXNativeTarget "tip-calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +428,7 @@
 				4567D23C19BBC52F00432B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
