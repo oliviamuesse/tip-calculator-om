@@ -21,11 +21,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var fourLabel: UILabel!
     
     @IBOutlet weak var oneImageView: UIImageView!
-    @IBOutlet weak var twoAImageView: UIImageView!
-    @IBOutlet weak var twoBImageView: UIImageView!
-    @IBOutlet weak var threeAImageView: UIImageView!
-    @IBOutlet weak var threeBImageView: UIImageView!
-    @IBOutlet weak var threeCImageView: UIImageView!
+    @IBOutlet weak var twoImageView: UIImageView!
+    @IBOutlet weak var threeImageView: UIImageView!
+    @IBOutlet weak var fourImageView: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +35,11 @@ class ViewController: UIViewController {
         threeLabel.text = ""
         fourLabel.text = ""
         tipTitleLabel.text = ""
+        
+        oneImageView.hidden = (true)
+        twoImageView.hidden = (true)
+        threeImageView.hidden = (true)
+        fourImageView.hidden = (true)
         
         billField.becomeFirstResponder()
     }
@@ -69,6 +73,11 @@ class ViewController: UIViewController {
         threeLabel.text = String(format: "$%.2f", three)
         fourLabel.text = String(format: "$%.2f", four)
         tipTitleLabel.text = ("Tip")
+        
+        oneImageView.hidden = (false)
+        twoImageView.hidden = (false)
+        threeImageView.hidden = (false)
+        fourImageView.hidden = (false)
     }
 
     @IBAction func onTap(sender: AnyObject) {
@@ -77,6 +86,8 @@ class ViewController: UIViewController {
     
     @IBAction func onTap(sender: UISegmentedControl) {
         view.endEditing(true)
+        
+        
     }
     
 }

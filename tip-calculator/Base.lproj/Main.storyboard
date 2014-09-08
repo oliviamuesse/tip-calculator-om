@@ -61,40 +61,16 @@
                                 <rect key="frame" x="20" y="263" width="8" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="70y-QE-OOe">
-                                <rect key="frame" x="20" y="338" width="8" height="24"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-2person.png" id="70y-QE-OOe">
+                                <rect key="frame" x="20" y="338" width="18" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="EDN-H8-wwb">
-                                <rect key="frame" x="34" y="338" width="8" height="24"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-3person.png" id="9vm-kh-QEz">
+                                <rect key="frame" x="20" y="408" width="30" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="9vm-kh-QEz">
-                                <rect key="frame" x="20" y="408" width="8" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="aDA-fg-fzg">
-                                <rect key="frame" x="34" y="408" width="8" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="ucN-DK-EMo">
-                                <rect key="frame" x="48" y="408" width="8" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="k6C-wI-qAZ">
-                                <rect key="frame" x="20" y="477" width="8" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="8Kj-Is-G6o">
-                                <rect key="frame" x="34" y="477" width="8" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="UFy-9c-MZD">
-                                <rect key="frame" x="48" y="477" width="8" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-person.png" id="bYr-rs-6AA">
-                                <rect key="frame" x="63" y="477" width="8" height="24"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-4person.png" id="k6C-wI-qAZ">
+                                <rect key="frame" x="20" y="477" width="39" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0AF-Tj-bCC">
@@ -141,18 +117,16 @@
                     </view>
                     <connections>
                         <outlet property="billField" destination="vxJ-Of-WOp" id="jvE-Ml-UL0"/>
+                        <outlet property="fourImageView" destination="k6C-wI-qAZ" id="gLW-ZL-GiB"/>
                         <outlet property="fourLabel" destination="XVj-nw-W30" id="SLq-gf-6Xl"/>
                         <outlet property="oneImageView" destination="nrk-GK-EZ6" id="O7i-Dv-KmU"/>
-                        <outlet property="threeAImageView" destination="9vm-kh-QEz" id="gxD-40-M8L"/>
-                        <outlet property="threeBImageView" destination="aDA-fg-fzg" id="F81-Yz-4CF"/>
-                        <outlet property="threeCImageView" destination="ucN-DK-EMo" id="7xi-mC-lYH"/>
+                        <outlet property="threeImageView" destination="9vm-kh-QEz" id="50G-5L-FiH"/>
                         <outlet property="threeLabel" destination="v5Y-jb-FB6" id="xUI-2V-u05"/>
                         <outlet property="tipControl" destination="g49-cD-SML" id="Evb-GV-WZL"/>
                         <outlet property="tipLabel" destination="qLO-71-cUx" id="a0P-Zv-weK"/>
                         <outlet property="tipTitleLabel" destination="0AF-Tj-bCC" id="Gxe-Bu-nqk"/>
                         <outlet property="totalLabel" destination="3jQ-28-fWh" id="jGR-bI-npI"/>
-                        <outlet property="twoAImageView" destination="70y-QE-OOe" id="B1n-Ne-QjR"/>
-                        <outlet property="twoBImageView" destination="EDN-H8-wwb" id="hsE-6v-6kl"/>
+                        <outlet property="twoImageView" destination="70y-QE-OOe" id="stI-cH-bbE"/>
                         <outlet property="twoLabel" destination="tTg-iZ-kdA" id="Yrv-FX-ZAc"/>
                     </connections>
                 </viewController>
@@ -167,6 +141,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icon-2person.png" width="18" height="23"/>
+        <image name="icon-3person.png" width="28" height="24"/>
+        <image name="icon-4person.png" width="38" height="24"/>
         <image name="icon-person.png" width="8" height="24"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
